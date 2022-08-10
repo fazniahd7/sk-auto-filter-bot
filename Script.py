@@ -1,15 +1,18 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,
+class script(object):
+    START_TXT = """𝙷𝙴𝙻𝙾 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """ <b>╭────[ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ]────⍟
 │
 ├⍟ Mʏ ɴᴀᴍᴇ : {}
 │
-├⍟ Oᴡɴᴇʀ : <a href='https://telegram.dog/happy_kid_sk'>Hᴀᴘᴘʏ 🧛‍♂️ Kɪᴅ</a>
+├⍟ Oᴡɴᴇʀ : <a href='@itsKd_Fazni'>Hᴀᴘᴘʏ 🧛‍♂️ Kɪᴅ</a>
 │
-├⍟ Cʜᴀɴɴᴇʟ : <a href='https://t.me/kr_botz'>KR ⚠︎ Bᴏᴛᴢ</a>
+├⍟ Cʜᴀɴɴᴇʟ : <a href='@TamilRockersadvFilterBot'>KR ⚠︎ Bᴏᴛᴢ</a>
 │
 ├⍟ Vᴇʀꜱɪᴏɴ : 2.2.5 [ Bᴇᴛᴀ ]
 │
@@ -21,31 +24,30 @@ class script(object):
 │
 ├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.dog/LastDrogz'>Lᴀsᴛ 🐲 Dʀᴏɢᴢ</a>
 │
-├⍟ Pᴏᴡᴇʀᴇᴅ ʙʏ : @BGM_LinkzZ
+├⍟ Pᴏᴡᴇʀᴇᴅ ʙʏ : @TamilRockers_FZN
 │
 ├⍟ Uᴘᴅᴀᴛᴇᴅ ᴏɴ : [ 26.05.2022 ] 7:28 PM
 │
 ╰─────[ @KR_Botz ]─────⍟ </b> """
-    SOURCE_TXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐁𝐆𝐌 𝐋𝐢𝐧𝐤𝐳𝐙 
-                              𝐂𝐢𝐧𝐞𝐦𝐚 𝐓𝐢𝐦𝐞 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥
+    SOURCE_TXT = """𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚃𝚘 𝚃𝚊𝚖𝚒𝚕 𝚁𝚘𝚌𝚔𝚎𝚛𝚜 
 <b>
-                  <a href=https://t.me/+GPrm8sxTWsdkOGM1>🔰 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🔰</a>
+                  <a href=https://t.me/+YLdUTLqM5p5jNjY1>🔰 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🔰</a>
 
-               <a href=https://t.me/+lsAp2MDnUC9mMmE1>⚜️ 𝐁ᴀᏨᏦᴜ𝐏 𝐂ʜᴀNɴᴇ𝐋 ⚜️</a>
+               <a href=https://t.me/+-9XXx8Yz_1ExMDM1>⚜️ 𝐁ᴀᏨᏦᴜ𝐏 𝐂ʜᴀNɴᴇ𝐋 ⚜️</a>
 
-                 <a href=https://t.me/+MB8a61q_98A3MThl>🧲 𝐁ᴀᏨᏦᴜ𝐏 𝐆ʀ𝐎ᴜ𝐏 🧲</a>
+                 <a href=https://t.me/+YLdUTLqM5p5jNjY1>🧲 𝐁ᴀᏨᏦᴜ𝐏 𝐆ʀ𝐎ᴜ𝐏 🧲</a>
 
           ◈ ━━━━━━━━ ● ━━━━━━━━ ◈ 
 
-                  <a href=https://t.me/+hR6DpC_xpPBiM2Zl>❤‍🔥  BᴏT UᴘᴅᴀᴛE  ❤‍🔥</a>
+                  <a href=https://t.me/+YLdUTLqM5p5jNjY1>❤‍🔥  BᴏT UᴘᴅᴀᴛE  ❤‍🔥</a>
 
              ✯ ━━━━━ ♡︎ ━━━━━ ✯ </b>
 
 <b>⭕️ Ꭰɪsᴄʟᴀɪᴍᴇʀ </b> : <code> All The Content in this Channel is Taken From the Internet, We Don't Own Any Content. </code>
 <b>
-Pᴏᴡᴇʀᴇᴅ Bʏ - @BGM_LinkzZ
+Pᴏᴡᴇʀᴇᴅ Bʏ - @TamilRockers_FZN
 
-Cᴏɴᴛᴀᴄᴛ Mᴇ - @KR_AdmiN_Bot
+Cᴏɴᴛᴀᴄᴛ Mᴇ - itskd_Fazni
 
 Sʜᴀʀᴇ & Sᴜᴘᴘᴏʀᴛ Us </b> """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
@@ -137,7 +139,7 @@ This module only works for my admins
 │
 ├⍟ Fʀᴇᴇ Dɪꜱᴋ : <code>{}</code>
 │
-╰─────❪ @BGM_LinkzZ ❫─────⍟ </b>"""
+╰─────❪ @TamilRockers_FZN ❫─────⍟ </b>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
